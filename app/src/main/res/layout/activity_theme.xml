@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".themeActivity">
+
+
+    <TextView
+        android:layout_width="203dp"
+        android:layout_height="88dp"
+        android:text="Dark Mode"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/darkmode_test"
+        android:gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="578dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dark_switch"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/dark_switch"
+        android:layout_width="149dp"
+        android:layout_height="62dp"
+        android:scrollbarStyle="insideOverlay"
+        android:thumbTint="@color/switch_circle"
+        app:trackTint="@color/switch_track"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.216"
+
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

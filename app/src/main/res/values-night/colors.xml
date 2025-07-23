@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bar_color">#FF000000</color>
+    <color name="background_color">#FF000000</color>
+    <color name="text_color">#FFFFFFFF</color>
+    <color name="orange">#FF6D00</color>
+
+
+    <color name="darkmode_test">#FFFFFFFF</color>
+    <color name="switch_track">#FFFFFFFF</color>
+    <color name="switch_circle">#FF6D00</color>
+
+
+</resources>
